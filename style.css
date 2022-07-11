@@ -1,3 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  font-family: 'Albert Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {  
+  display: grid; 
+  grid-template-columns: 200px 200px 200px 200px 200px;  
+  gap: 0px 20px; 
+  width: fit-content; 
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;  
+}
+
+.card{
+  border: 1px solid #bebebe;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #cfc1c1;
+  padding: 30px;
+}
+
+.name{
+  font-size: 20px;
+}
+
+.hero-points{
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.score{
+  display: grid; 
+  grid-template-columns: 20px 20px 20px;  
+  gap: 0px 20px; 
+  justify-content: center;
+  font-size: 40px;
+  text-align: center;
+}
+
 .footer{
   margin-left : 80px;
   font-size : 18px;
